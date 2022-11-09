@@ -1,0 +1,25 @@
+_id: req_28e7f08efc54412f98b207c5840120eb
+type: Request
+parentId: wrk_9ac9d382982c4879923c80ba800b4dc4
+modified: 1668001968163
+created: 1668001956430
+url: "{{ _.baseUrl }}/rooms/193007080/tasks/185828023"
+name: /rooms/:room_id/tasks/:task_id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5ec5dc2fae354c72b56d503bb99f31cc
+    name: x-chatworktoken
+    value: "{{ _.apiToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1668001453556.2656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

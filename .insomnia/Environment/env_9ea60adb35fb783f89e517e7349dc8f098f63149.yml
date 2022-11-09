@@ -1,0 +1,14 @@
+_id: env_9ea60adb35fb783f89e517e7349dc8f098f63149
+type: Environment
+parentId: wrk_9ac9d382982c4879923c80ba800b4dc4
+modified: 1668001611872
+created: 1668001469839
+name: Base Environment
+data:
+  baseUrl: https://api.chatwork.com/v2
+dataPropertyOrder:
+  "&":
+    - baseUrl
+color: null
+isPrivate: false
+metaSortKey: 1668001469839

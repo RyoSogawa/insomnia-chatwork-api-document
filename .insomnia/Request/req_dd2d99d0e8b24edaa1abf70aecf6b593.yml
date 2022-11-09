@@ -1,0 +1,30 @@
+_id: req_dd2d99d0e8b24edaa1abf70aecf6b593
+type: Request
+parentId: wrk_9ac9d382982c4879923c80ba800b4dc4
+modified: 1668002045435
+created: 1668002033580
+url: "{{ _.baseUrl }}/rooms/193007080/files/686936541"
+name: /rooms/:room_id/files/:file_id
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_3671e33fe5354dd6a7804c9fb9104f23
+    name: create_download_url
+    value: ""
+    description: ""
+    disabled: true
+headers:
+  - id: pair_5ec5dc2fae354c72b56d503bb99f31cc
+    name: x-chatworktoken
+    value: "{{ _.apiToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1668001453433.0664
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

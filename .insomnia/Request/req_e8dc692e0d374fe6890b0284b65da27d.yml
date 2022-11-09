@@ -1,0 +1,25 @@
+_id: req_e8dc692e0d374fe6890b0284b65da27d
+type: Request
+parentId: wrk_9ac9d382982c4879923c80ba800b4dc4
+modified: 1668001636002
+created: 1668001632930
+url: "{{ _.baseUrl }}/my/status"
+name: /my/status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5ec5dc2fae354c72b56d503bb99f31cc
+    name: x-chatworktoken
+    value: "{{ _.apiToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1668001495544
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

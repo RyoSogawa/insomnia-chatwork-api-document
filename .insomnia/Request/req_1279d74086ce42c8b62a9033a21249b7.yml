@@ -1,0 +1,25 @@
+_id: req_1279d74086ce42c8b62a9033a21249b7
+type: Request
+parentId: wrk_9ac9d382982c4879923c80ba800b4dc4
+modified: 1668001699625
+created: 1668001691852
+url: "{{ _.baseUrl }}/contacts"
+name: /contacts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5ec5dc2fae354c72b56d503bb99f31cc
+    name: x-chatworktoken
+    value: "{{ _.apiToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1668001474418
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

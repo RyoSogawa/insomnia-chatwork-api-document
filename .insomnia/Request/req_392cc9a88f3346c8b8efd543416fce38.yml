@@ -1,0 +1,25 @@
+_id: req_392cc9a88f3346c8b8efd543416fce38
+type: Request
+parentId: wrk_9ac9d382982c4879923c80ba800b4dc4
+modified: 1668001767619
+created: 1668001764800
+url: "{{ _.baseUrl }}/rooms/193007080/members"
+name: /rooms/:room_id/members
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5ec5dc2fae354c72b56d503bb99f31cc
+    name: x-chatworktoken
+    value: "{{ _.apiToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1668001456020.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_920bb4c2488342ac9083680d4194b740
+type: Request
+parentId: wrk_9ac9d382982c4879923c80ba800b4dc4
+modified: 1668001878954
+created: 1668001777616
+url: "{{ _.baseUrl }}/rooms/193007080/messages"
+name: /rooms/:room_id/messages
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_80642f312bd04828ac3c8f8e3ec538ea
+    name: force
+    value: "1"
+    description: ""
+    disabled: false
+headers:
+  - id: pair_5ec5dc2fae354c72b56d503bb99f31cc
+    name: x-chatworktoken
+    value: "{{ _.apiToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1668001454706.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

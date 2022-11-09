@@ -1,0 +1,37 @@
+_id: req_e38f4b7029694683ab9f2ff8f6f9f57a
+type: Request
+parentId: wrk_9ac9d382982c4879923c80ba800b4dc4
+modified: 1668001942159
+created: 1668001911232
+url: "{{ _.baseUrl }}/rooms/193007080/tasks"
+name: /rooms/:room_id/tasks
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_369f15f8174046eab94f5839eb1c54b6
+    name: account_id
+    value: ""
+    description: ""
+  - id: pair_bbac1eaa9267415b90dbf6a11ff1582c
+    name: assigned_by_account_id
+    value: ""
+    description: ""
+  - id: pair_e1dbca35477a4ecaac8cfb9273a1165e
+    name: status
+    value: ""
+    description: ""
+headers:
+  - id: pair_5ec5dc2fae354c72b56d503bb99f31cc
+    name: x-chatworktoken
+    value: "{{ _.apiToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1668001453720.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

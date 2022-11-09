@@ -1,0 +1,35 @@
+_id: req_1fa7be36fe554fe38896ffb60714962e
+type: Request
+parentId: wrk_9ac9d382982c4879923c80ba800b4dc4
+modified: 1668001680521
+created: 1668001650231
+url: "{{ _.baseUrl }}/my/tasks"
+name: /my/tasks
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_8f855aa2a17f48669d85d2c4496be0c4
+    name: assigned_by_account_id
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_4759a903b98c4943b592bfe8b43c2776
+    name: status
+    value: ""
+    description: ""
+    disabled: true
+headers:
+  - id: pair_5ec5dc2fae354c72b56d503bb99f31cc
+    name: x-chatworktoken
+    value: "{{ _.apiToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1668001474468
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
